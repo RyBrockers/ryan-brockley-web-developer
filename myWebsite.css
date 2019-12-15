@@ -1,137 +1,92 @@
-html {
-    font-family: 'Work Sans', sans-serif;
-
-
-}
-/* nav */
-nav {
-    border-bottom: 1px solid #000000;
-}
-.header h3 {
-    width: 100%;
-    max-width: 245px;
-    margin: 0 !important;
-    padding: 0 !important;
-    font-size: 35px;
-    position: relative;
-    top: 15px;
-    left: 10px;
-}
-.header p {
-    width: 100%;
-    max-width: 150px;
-    margin: 0 !important;
-    padding: 0 !important;
-    font-size: 20px;
-    position: relative;
-    top: 15px;
-    left: 15px;
-}
-
-ul  {
-    list-style-type: none;
-
-}
-ul li a:hover {
-    color: #ff0000;
-}
-.nav-links {
-    position: relative;
-    right: 20px;
-}
-
-.nav-links ul {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: row;
-}
-ul a {
-    text-decoration: none;
-    color: #000000;
-    margin: 0 10px;
-
-}
-/* end of nav */
-
-.img-container {
+.container-p-div {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    position: relative;
-    top: 180px;
-    left: 20px;
-    width: 100%;
-}
-.content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-}
-.content-p {
-    text-align: center;
-    margin: 0 !important;
-    padding: 0 !important;
-    position: relative;
-    top: 130px;
-    font-size: 18px;
-}
-.content h2 {
-    position: relative;
-    top: 120px;
-    font-size: 35px;
-    margin: 0 !important;
-    padding: 0 !important;
-}
-h3 a {
-    text-decoration: none;
-    color: #000000;
-}
-.find-me {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    
-}
-.find-me h2 {
-    position: relative;
-    top: 200px;
-    left: 15px;
-    text-align: center;
     font-size: 25px;
-}
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
 
-.icons {
+}
+.first-img {
+    text-align: center;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    position: relative;
-    left: 18px;
-    top: 200px;
-    font-size: 35px;
+    margin-top: 5%;
+
 }
-.icons i {
-    margin: 0 10px;
+.first-text {
+    text-align: center;
 }
-.fa-github {
-    color: #000000;
+.first-text h2 {
+    font-size: 30px;
 }
-.fa-linkedin {
-    color: #2877B5;
+.first a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    font-size: 20px;
 }
-.fa-twitter {
-    color: #39A2F2;
+.first {
+    background: #e6e8e1;
+    padding: 10px;
+    width: 100%;
 }
-.fa-envelope {
-    color: #8c8c99;
+.container {
+    width: 100%;
+}
+.img-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 5%;
+    width: 100%;
+
 }
 
-/* Style the Image Used to Trigger the Modal */
+@media only screen and (max-width: 600px) {
+    .container-p-div  {
+      font-size: 16px;
+      text-align: center;
+      width: 100%;
+    }
+    .first {
+        text-align: center;
+        width: 100%;
+
+    }
+    .first-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .first img {
+        width: 100%;
+    }
+    .img-container-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        position: relative;
+        left: 10px;
+        width: 100%;
+    
+    }
+  }
+
+  /* model */
+  /* Style the Image Used to Trigger the Modal */
 #myImg {
     border-radius: 5px;
     cursor: pointer;
@@ -208,11 +163,5 @@ h3 a {
   @media only screen and (max-width: 700px){
     .modal-content {
       width: 100%;
-    }
-  }
-
-@media only screen and (max-width: 600px) {
-    .content h2 {
-      font-size: 26px;
     }
   }
