@@ -217,5 +217,7 @@ h3 a {
 @media only screen and (max-width: 600px) {
     .content h2 {
       font-size: 26px;
+      text-align: center;
+    
     }
   }
