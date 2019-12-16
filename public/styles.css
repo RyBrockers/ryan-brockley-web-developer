@@ -4,6 +4,7 @@ html {
 /* nav */
 nav {
   border-bottom: 1px solid #000000;
+  width: 100%;
 }
 .header h3 {
   width: 100%;
@@ -85,7 +86,8 @@ ul a {
 h3 a {
   text-decoration: none;
   color: #000000;
-}
+} 
+/* contact me */
 .find-me {
   display: flex;
   justify-content: center;
@@ -128,6 +130,10 @@ h3 a {
 .fa-facebook {
   color: #4267b2;
 }
+
+/* contact me */
+
+/* blogs */
 .blogs-content {
   text-align: center;
   display: flex;
@@ -148,7 +154,7 @@ h3 a {
   top: 55px;
   left: 230px;
   font-size: 35px;
-}
+} 
 .blog-icons i {
   margin: 0 10px;
 }
@@ -161,6 +167,11 @@ h3 a {
 .fa-pinterest {
   color: #e73631;
 }
+
+/* blogs */
+
+/* services */
+
 .services-container {
   text-align: center;
   display: flex;
@@ -169,7 +180,7 @@ h3 a {
   flex-direction: row;
   text-align: left;
   padding: 10px;
-  margin-top: 150px;
+  margin-top: 120px;
 }
 .services-content {
   width: 100%;
@@ -193,23 +204,30 @@ h3 a {
   font-size: 40px;
   padding: 0 !important;
 }
-.growth-img {
-  margin-left: 90px;
+.growth-img-1 {
+  margin-left: 10%;
+}
+.growth-img-2 {
+  margin-right: 10%;
 }
 .info-h2 {
   text-align: center;
-  margin-top: 60px;
 }
 .info-content p {
   text-align: center;
+  font-size: 18px;
 }
 .info-content {
   text-align: center;
   background: #e6e8e1;
   padding: 6px;
   border-radius: 10px;
-  width: 100%;
+  width: 80%;
   margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .info-wrapper {
   display: flex;
@@ -217,6 +235,15 @@ h3 a {
   align-items: center;
   flex-direction: column;
 }
+/* footer */
+footer {
+  border-top: 1px solid #000000;
+}
+/* footer */
+
+
+/* services */
+
 @media only screen and (max-width: 800px) {
   .content h2 {
     font-size: 26px;
@@ -229,6 +256,7 @@ h3 a {
     flex-direction: row;
     text-align: center;
     margin-top: 30px;
+    width: 100%;
   }
   .services-content {
     width: 100%;
