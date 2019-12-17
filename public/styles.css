@@ -344,7 +344,7 @@ footer {
     align-items: center;
     flex-direction: row;
     position: relative;
-    top: 90px;
+    top: 170px;
     left: 10px;
     margin-bottom: 2%;
   }
@@ -355,7 +355,7 @@ footer {
     align-items: center;
     flex-direction: row;
     position: relative;
-    top: 99px;
+    top: 160px;
     left: 10px;
   }
   .icons {
@@ -364,13 +364,13 @@ footer {
     align-items: center;
     flex-direction: row;
     position: relative;
-    top: 100px;
+    top: 140px;
     left: 4px;
     font-size: 35px;
   }
   .find-me h2 {
     position: relative;
-    top: 105px;
+    top: 145px;
     text-align: center;
     font-size: 25px;
     left: 10px;
