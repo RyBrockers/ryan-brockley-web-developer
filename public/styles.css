@@ -281,7 +281,7 @@ footer {
     align-items: center;
     flex-direction: row;
     position: relative;
-    top: 220px;
+    top: 90px;
     left: 10px;
     margin-bottom: 2%;
   }
@@ -292,7 +292,7 @@ footer {
     align-items: center;
     flex-direction: row;
     position: relative;
-    top: 220px;
+    top: 99px;
     left: 10px;
   }
   .icons {
@@ -301,20 +301,20 @@ footer {
     align-items: center;
     flex-direction: row;
     position: relative;
-    top: 200px;
+    top: 100px;
     left: 4px;
     font-size: 35px;
   }
   .find-me h2 {
     position: relative;
-    top: 200px;
+    top: 105px;
     text-align: center;
     font-size: 25px;
     left: 10px;
   }
   .content h2 {
     position: relative;
-    top: 80px;
+    top: 50px;
     font-size: 25px;
     margin: 0 !important;
     padding: 0 !important;
@@ -324,7 +324,7 @@ footer {
     margin: 0 !important;
     padding: 0 !important;
     position: relative;
-    top: 90px;
+    top: 65px;
     font-size: 14px;
   }
   .img-container {
@@ -333,7 +333,7 @@ footer {
     align-items: center;
     flex-direction: row;
     position: relative;
-    top: 150px;
+    top: 110px;
     left: 20px;
     width: 100%;
   }
