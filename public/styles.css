@@ -271,7 +271,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
   .content h2 {
-    font-size: 26px;
+    font-size: 30px !important;
     text-align: center;
   }
   .blog-icons {
@@ -281,8 +281,9 @@ footer {
     align-items: center;
     flex-direction: row;
     position: relative;
-    top: 320px;
+    top: 220px;
     left: 10px;
+    margin-bottom: 2%;
   }
   .blogs-content {
     text-align: center;
@@ -291,7 +292,7 @@ footer {
     align-items: center;
     flex-direction: row;
     position: relative;
-    top: 320px;
+    top: 220px;
     left: 10px;
   }
   .icons {
@@ -300,13 +301,13 @@ footer {
     align-items: center;
     flex-direction: row;
     position: relative;
-    top: 300px;
+    top: 200px;
     left: 4px;
     font-size: 35px;
   }
   .find-me h2 {
     position: relative;
-    top: 300px;
+    top: 200px;
     text-align: center;
     font-size: 25px;
     left: 10px;
