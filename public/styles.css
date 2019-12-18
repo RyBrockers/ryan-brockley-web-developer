@@ -185,6 +185,7 @@ h3 a {
 .services-container p {
   line-height: 30px;
   font-size: 18px;
+  color: #383c45;
 }
 .services-content {
   width: 100%;
@@ -239,10 +240,22 @@ h3 a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 100%;
 }
 /* footer */
 footer {
   border-top: 1px solid #000000;
+  position: relative;
+  top: 150px;
+  width: 100%;
+}
+.middle {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 40px;
 }
 /* footer */
 
@@ -333,6 +346,12 @@ footer {
     position: relative;
     top: 210px;
     left: 20px;
+    width: 100%;
+  }
+  footer {
+    border-top: 1px solid #000000;
+    position: relative;
+    top: 170px;
     width: 100%;
   }
 }
