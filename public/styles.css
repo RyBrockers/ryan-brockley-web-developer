@@ -312,15 +312,19 @@ footer {
   top: 150px;
   width: 100%;
 }
+.blogs {
+  position: relative;
+  bottom: 115px;
+}
 
-.left {
+/* .left {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   flex-direction: row;
   position: relative;
   top: 100px;
-}
+} */
 
 /* footer */
 
@@ -445,10 +449,7 @@ footer .right a {
     top: 10px;
   }
 
-  .blogs {
-    position: relative;
-    top: 30%;
-  }
+
   .icons {
     display: flex;
     justify-content: center;
@@ -520,17 +521,21 @@ footer .right a {
     align-items: center;
     flex-direction: column;
   }
-  .left {
+  /* .left {
     display: flex;
     align-items: center;
     flex-direction: column;
     position: relative;
     top: 10%;
     padding: 18px;
-  }
+  } */
   .blogs-content h2 {
     position: relative;
-    bottom: 20px;
+    bottom: 10px;
+  }
+  .blog-icons {
+    position: relative;
+    bottom: 10%;
   }
   .middle {
     position: relative;
