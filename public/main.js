@@ -11,6 +11,7 @@ function change() {
     counter = 0;
     // clearInterval(inst); 
   }
+  console.log(element);
   // element.style.width = "100%"
 
   element.style.textAlign = 'centre';
@@ -19,4 +20,4 @@ function change() {
 setInterval(function () {
   element.style.opacity = '0.66'
 
-}, 3000)
+}, 5000)

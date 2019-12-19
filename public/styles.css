@@ -258,6 +258,10 @@ h3 a {
 .disabled {
   display: none;
 }
+.usp-div {
+  height: 50px;
+  width: 100%;
+}
 /* footer */
 footer {
   border-top: 1px solid #000000;
