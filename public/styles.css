@@ -1,11 +1,11 @@
 html {
   font-family: "Work Sans", sans-serif;
   overflow-x: hidden;
-  
+
 }
 /* nav */
 nav {
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #000;
   width: 100%;
 }
 .header h3 {
