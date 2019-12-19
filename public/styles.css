@@ -242,6 +242,22 @@ h3 a {
   flex-direction: column;
   width: 100%;
 }
+#changeText {
+  background: #fff600;
+  color: #000000;
+  text-align: center;
+  margin: auto;
+  max-height: 40px;
+  height: 100%;
+  text-align-last: auto;
+  padding: 5px;
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.disabled {
+  display: none;
+}
 /* footer */
 footer {
   border-top: 1px solid #000000;
