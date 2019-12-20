@@ -5,3 +5,34 @@ html {
   margin: 0;
   padding: 0;
 }
+
+.myWebsites-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  max-width: 600px;
+}
+.container-p-div p {
+font-size: 27px;
+font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-p-div p {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10%;
+    font-weight: bold;
+
+    }
+}
