@@ -1,5 +1,7 @@
 html {
   font-family: 'Raleway', sans-serif;
+  width: 100%;
+  height: auto;
 
 }
 /* the navbar */
@@ -56,7 +58,7 @@ nav .header h3  {
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 
 
@@ -70,6 +72,9 @@ nav .header h3  {
 /* footer */
 footer {
   border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-top: 10%;
+
 }
 
 .contact-me-content h2 {
@@ -90,7 +95,6 @@ footer {
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  padding: 10px;
 
 }
 .contact-me {
@@ -98,7 +102,6 @@ footer {
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  padding: 10px;
 
 }
 /* footer icons */
@@ -133,21 +136,21 @@ footer i {
 /* footer icons */
 .left {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: flex-start;
   flex-direction: row;
-  padding: 10px;
 }
-.middle {
 
-}
 .right {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
   position: relative;
-  top: 50px;
+}
+.right a {
+  text-decoration: none;
+  color: #000;
 }
 
 @media only screen and (max-width: 600px) {
@@ -156,6 +159,19 @@ footer i {
     padding: 3px;
   }
 }
+
+@media only screen and (min-width: 1250px) {
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 26%;
+    position: relative;
+    top: 100px;
+  }
+}
+
 
 /* footer */
 
