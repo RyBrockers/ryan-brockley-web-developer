@@ -27,21 +27,23 @@ nav ul li a {
   padding: 5px;
 
 }
-nav li a {
 
-}
 nav .header h3 a {
   text-decoration: none;
   color: #000;
   font-size: 30px;
   margin: 0 !important;
   padding: 0 !important;
+  font-weight: bold;
+
 }
 nav .header h3  {
   text-decoration: none;
   color: #000;
   margin: 0 !important;
   padding: 0 !important;
+  font-weight: bold;
+
 
 }
 .nav .header p {
@@ -160,6 +162,7 @@ footer i {
 .right a {
   text-decoration: none;
   color: #000;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
