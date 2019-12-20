@@ -5,3 +5,10 @@ html {
   margin: 0;
   padding: 0;
 }
+
+.services-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
