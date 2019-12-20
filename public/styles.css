@@ -158,6 +158,18 @@ footer i {
     font-size: 20px;
     padding: 3px;
   }
+  .right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .right a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+  }
 }
 
 @media only screen and (min-width: 1250px) {
