@@ -34,7 +34,7 @@ nav .header h3 a {
   font-size: 30px;
   margin: 0 !important;
   padding: 0 !important;
-  font-weight: bold;
+  font-weight: normal;
 
 }
 nav .header h3  {
@@ -42,7 +42,6 @@ nav .header h3  {
   color: #000;
   margin: 0 !important;
   padding: 0 !important;
-  font-weight: bold;
 
 
 }
@@ -90,9 +89,12 @@ footer {
 
 .contact-me-content h2 {
   font-size: 18px;
+  font-weight: normal;
 }
 .blogs-content h2 {
   font-size: 18px;
+  font-weight: normal;
+
 
 }
 .blog-icons {
@@ -162,7 +164,6 @@ footer i {
 .right a {
   text-decoration: none;
   color: #000;
-  font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
