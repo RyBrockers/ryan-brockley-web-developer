@@ -76,7 +76,7 @@ footer {
   border-bottom: 1px solid #000;
   margin-top: 10%;
   position: relative;
-  top: 30px;
+  top: 70px;
 
 }
 
@@ -98,7 +98,7 @@ footer {
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 
 }
 .contact-me {
