@@ -9,19 +9,40 @@ html {
 .services-image  {
   width: 100% !important;
 }
+.info-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background: #e9ebee;
+  padding: 10px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.info-content p {
+width: 100%;
+max-width: 600px;
+margin-bottom: 20%;
+}
 .services-content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
+  width: 100%;
+  max-width: 600px;
+  line-height: 25px;
+  padding: 20px;
 }
 .services-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
+ 
 }
 .services-wrapper {
   display: flex;
@@ -29,6 +50,7 @@ html {
   align-items: center;
   flex-direction: column;
   text-align: center;
+ 
 }
 
 @media only screen and (max-width: 600px) {
@@ -38,6 +60,8 @@ html {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    width: 100%;
+
   }
   .services-wrapper {
     display: flex;
@@ -45,6 +69,17 @@ html {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    width: 100%;
+
+  }
+  .services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+   
   }
   .services-image img {
     width: 100% !important;
