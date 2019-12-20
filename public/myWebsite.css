@@ -75,7 +75,7 @@
 
 }
 .second-text h2 {
-  margin-top: 10%r;
+  margin-top: 10%;
 }
 .third a {
     display: flex;
@@ -131,12 +131,3 @@
     
     }
   }
-  .thumbnail:hover {
-    position:relative;
-    top:-25px;
-    left:-35px;
-    width:500px;
-    height:auto;
-    display:block;
-    z-index:999;
-}
