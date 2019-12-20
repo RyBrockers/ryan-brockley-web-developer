@@ -12,6 +12,7 @@ nav {
   height: 100%;
   max-height: 120px;
   border-bottom: 1px solid #000;
+
 }
 .nav-links ul {
   list-style-type: none;
@@ -20,30 +21,34 @@ nav {
   align-items: center;
   flex-direction: row;
 }
-.nav-links ul li a {
+nav ul li a {
   text-decoration: none;
   color: #000;
   padding: 5px;
-  font-weight: bold;
+
 }
+
 nav .header h3 a {
   text-decoration: none;
   color: #000;
   font-size: 30px;
   margin: 0 !important;
   padding: 0 !important;
+  font-weight: bold;
+
 }
 nav .header h3  {
   text-decoration: none;
   color: #000;
   margin: 0 !important;
   padding: 0 !important;
+  font-weight: bold;
+
 
 }
 .nav .header p {
   margin: 0 !important;
   padding: 0 !important;
-  font-weight: bold;
 
 }
 .header {
@@ -60,6 +65,9 @@ nav .header h3  {
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
+}
+.content h2 {
+text-align: center;
 }
 
 
@@ -154,6 +162,7 @@ footer i {
 .right a {
   text-decoration: none;
   color: #000;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
@@ -194,7 +203,6 @@ footer i {
     text-decoration: none;
     color: #000;
     padding: 5px;
-    font-weight: bold;
   }
 }
 
