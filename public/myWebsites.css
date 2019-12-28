@@ -26,6 +26,11 @@ html {
 font-size: 27px;
 font-weight: bold;
 }
+.img-container-2 {
+  margin-bottom: 10%;
+  margin-top: 6%;
+
+}
 
 @media only screen and (max-width: 600px) {
   .container-p-div p {
