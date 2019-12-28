@@ -21,15 +21,20 @@ html {
   padding: 10px;
   width: 100%;
   max-width: 600px;
+  margin: 20px auto;
 }
 .container-p-div p {
 font-size: 27px;
 font-weight: bold;
+margin-top: 8%;
 }
 .img-container-2 {
   margin-bottom: 10%;
   margin-top: 6%;
 
+}
+.first h2 {
+  font-size: 29px;
 }
 
 @media only screen and (max-width: 600px) {
