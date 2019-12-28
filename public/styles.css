@@ -34,14 +34,14 @@ nav ul li a {
 
 nav .header h3 a {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 38px;
   margin: 0 !important;
   padding: 0 !important;
   color: #000;
 
 
 }
-nav .header h3  {
+.header h3  {
   text-decoration: none;
   color: #000;
   margin: 0 !important;
@@ -57,6 +57,7 @@ nav .header h3  {
 .header {
   padding: 10px;
 }
+
 /* the navbar */
 
 
@@ -72,7 +73,18 @@ nav .header h3  {
 .content h2 {
 text-align: center;
 }
-
+.content-p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.content-heading-h2 {
+  font-size: 35px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.img-container {
+  margin-top: 5%;
+}
 
 
 
@@ -85,7 +97,7 @@ text-align: center;
 footer {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
-  margin-top: 10%;
+  margin-top: 8%;
   position: relative;
   top: 70px;
 
